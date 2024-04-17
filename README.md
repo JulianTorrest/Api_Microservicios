@@ -66,6 +66,3 @@ Implement rate limiting by modifying the API Consumer Microservice to include sl
 - Add security measures such as API key authentication.
 - Use a more robust database like PostgreSQL for scalability.
 - Implement continuous integration and deployment pipelines for easier updates and rollbacks.
-
-## Contact Information
-For more information or to report issues, contact the project maintainers at [your-email@example.com].
