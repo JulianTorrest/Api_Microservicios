@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  file_processor:
+    build: ./file_processor
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+
+  api_consumer:
+    build: ./api_consumer
+    ports:
+      - "6000:6000"
+    volumes:
+      - ./data:/app/data
+
